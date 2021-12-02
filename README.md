@@ -3,6 +3,7 @@ Tfbns is an open source python library for Binomial Seperation Feature Scaling. 
 
 Usage:
 
+    import pandas as pd
     from tfbns.feature_extraction import tfbns
 
 		df = pd.read_csv("data.csv")
@@ -12,4 +13,8 @@ Usage:
 		#Label should be binary containing 0 or 1
 		x_train_tfbns = tfbns.fit_transform(x_train, y_train)
 		x_test_tfbns = tfbns.transform(x_test)
+		
+To install:
+
+	https://pypi.org/project/tfbns/0.0.3/
 
