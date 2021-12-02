@@ -13,4 +13,8 @@ Usage:
 		#Label should be binary containing 0 or 1
 		x_train_tfbns = tfbns.fit_transform(x_train, y_train)
 		x_test_tfbns = tfbns.transform(x_test)
+		
+To install:
+
+	https://pypi.org/project/tfbns/0.0.3/
 
